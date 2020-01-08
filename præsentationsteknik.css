@@ -133,12 +133,17 @@ body {
        height: 90px; 
     }       
     
-p {
+p { /*skrift type og højde*/
         
     font-family: sans-serif;
     line-height: 25px;
      }
 
+img { /*billede*/
+    
+    height: 250px;
+    
+}
 /*
 -----------------------
 TABLET VER. 
@@ -151,12 +156,15 @@ TABLET VER.
     }
 }
 
-p {
+p { /*paragraf*/
         
     font-family: sans-serif;
     line-height: 25px;
      }
 
+img { /*billede*/
+    height: 250px;
+    }
 /*
 -----------------------
 DESKTOP VER. 
@@ -246,7 +254,7 @@ h3 {
     
     
 img {
-       height: 150px; 
+       height: 250px; 
       align-content: center
     }       
     
