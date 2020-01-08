@@ -127,13 +127,16 @@ body {
     
     
     
-p {
+p {  /* paragraf*/
         
     font-family: sans-serif;
     line-height: 25px;
      }
     
-
+ img {  /* billede*/
+        
+        height: 200px;
+    }
 /*
 -----------------------
 TABLET VER. 
@@ -146,11 +149,16 @@ TABLET VER.
     }
 }
 
-p {
+p {  /* paragraf*/
         
     font-family: sans-serif;
     line-height: 25px;
      }
+
+ img { /* billede*/
+        
+        height: 200px;
+    }
 /*
 -----------------------
 DESKTOP VER. 
@@ -244,4 +252,8 @@ p {
     font-family: sans-serif;
     line-height: 25px;
      }
-    
+  
+    img {
+        
+        height: 200px;
+    }
